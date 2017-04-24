@@ -1,0 +1,10 @@
+{
+  "plugins": [
+ 
+    {
+          "repo": "regional-planning",
+          "name": "regional-planning"
+            
+    }
+   ]
+}
