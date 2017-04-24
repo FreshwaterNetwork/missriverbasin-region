@@ -47,11 +47,7 @@
         "measure",
         "legend_display",
         "full_extent",
-        "subregion_toggle",
-		"water_security",
-		"benefits_explorer",
-		"water_funds",
-		"water_share"
+        "subregion_toggle"
     ],
     "print": {
         "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
@@ -67,7 +63,7 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "",
-            "description": "<p>Welcome to America's Great River region. There's lots of cool stuff to check out here.</p>",
+            "description": "<p>Welcome to The Mississippi River Basin Project. There's lots of cool stuff to check out here.</p>",
             "plugins": [
 				{
 					"title": "UMR Floodplain Explorer",
