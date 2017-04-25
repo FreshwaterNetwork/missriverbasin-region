@@ -45,7 +45,7 @@
        "primary": "#457545",
         "secondary": "#81b94d",
        "tertiary": "#333333",
-       "active": "#0096D6"
+       "active": "#9DFF33"
     },
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
