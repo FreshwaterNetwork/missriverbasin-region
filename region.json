@@ -13,10 +13,10 @@
 		{ "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
     ],
     "initialExtent": [
-        -130,
-        -50,
-        130,
-        55
+        -102.00,
+        28.67,
+        -83.00,
+        42.84
     ],
     "basemaps": [
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
