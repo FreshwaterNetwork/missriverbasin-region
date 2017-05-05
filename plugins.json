@@ -5,6 +5,11 @@
           "repo": "regional-planning",
           "name": "regional-planning"
             
-    }
+    },
+	{
+  	      "repo": "umr-floodplain",
+  	      "name": "umr-floodplain",
+  	      "org": "FreshwaterNetwork"
+    },
    ]
 }
