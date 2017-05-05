@@ -30,6 +30,7 @@
     ],
     "pluginOrder": [
         "regional-planning",
+		"umr-floodplain",
 		"zoom_to",
         "measure",
         "legend_display",
