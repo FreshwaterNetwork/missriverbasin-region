@@ -62,7 +62,7 @@
                 },
 				{
                     "title": "<img src='plugins/umr-floodplain/icon_sm.png' hspace=10>",
-                    "description": "Upper Mississippi Floodplain Explorer",
+                    "description": "Upper Mississippi Floodplain Explorer - Target watersheds suitable for Conservation, Restoration or Reconnection.",
                     "pluginName": "umr-floodplain"
                 }
             ]
