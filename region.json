@@ -57,7 +57,7 @@
             "plugins": [
 				{
                     "title": "<img src='img/regional_planning.png' hspace=10>",
-                    "description": "Base Layers, Reference Data, Nutrient Models and more...",
+                    "description": "Regional Planning - Base Layers, Reference Data, Nutrient Models and more...",
                     "pluginName": "regional-planning"
                 },
 				{
@@ -68,4 +68,3 @@
             ]
       }
 }
- 
