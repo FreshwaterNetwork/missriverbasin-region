@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "America's Great River Project",
+        "displayName": "Mississippi River Basin",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -9,24 +9,430 @@
         },
         "includeLayers": [
             {
-               "name": "Mississippi River Basin"
+               "name": "Base Data",
+			   "includeAllLayers": true
 			},
 			{
-               "name": "Major Rivers of the Mississippi Basin"
+               "name": "Managed Areas",
+			   "includeAllLayers": true
 			},
 			{
-				"name": "HUC 6 Basins"
+			   "name": "SPARROW Models",
+			   "includeAllLayers": true
 			},
 			{
-				"name": "HUC 8 Subbasins"
-			},
-			{
-				"name": "HUC 12 Subwatersheds"
-			},
-			{
-				"name": "U.S. States"
-			}
+			   "name": "Data Basin",
+			   "includeAllLayers": true
+			}				
 
+		]
+	},
+	{
+	   "displayName": "Lower Wabash",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "5744567be4b07e28b661c4ee"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Lower Wabash Basin"
+		   },
+		   {
+		      "name": "River Segment of Interest"
+		   },
+		   {
+		      "name": "Floodplains"
+		   },
+		   {
+		      "name": "HUC-10"
+		   }
+			  
+		]
+	},
+	{
+	   "displayName": "Floodplains",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "58418b48e4b04fc80e518b2f"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Floodplains - Large Bottomland Ecological System"
+		   }  
+		]
+	},
+	{
+	   "displayName": "Mainstem Floodplains",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "55df6afee4b0518e354e0b4c"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Mainstem Floodplains - Large Bottomland Ecological System"
+		   }  
+		]
+	},
+	{
+	   "displayName": "Des Moines River Basin (HU4-0710) - Riparian Implementation Opportunities",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "561277ece4b0ba4884c60943"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Riparian Corn/Soybeans - Contiguous to Herbaceous"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Marginal Wet"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Marginal"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Wet"
+		   },
+           {
+              "name": "Riparian Corn/Soybeans"
+		   },
+		   {
+		      "name": "Riparian Grazing Land - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Grazing Land - Wet"
+		   },
+		   {
+		      "name": "Riparian Grazing Land"
+		   },
+		   {
+		      "name": "Wet Riparian Areas"
+		   },
+		   {
+		      "name": "Riparian Forest"
+		   },
+		   {
+		      "name": "Riparian Zone"
+		   },
+		   {
+		      "name": "Des Moines HU4-0710 Boundary"
+		   }
+		]
+	},
+	{
+	   "displayName": "Iowa River Basin (HU4-0708) - Riparian Implementation Opportunities",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "5612779fe4b0ba4884c60940"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Riparian Corn/Soybeans - Contiguous to Herbaceous"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Marginal Wet"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Marginal"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Wet"
+		   },
+           {
+              "name": "Riparian Corn/Soybeans"
+		   },
+		   {
+		      "name": "Riparian Grazing Land - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Grazing Land - Wet"
+		   },
+		   {
+		      "name": "Riparian Grazing Land"
+		   },
+		   {
+		      "name": "Wet Riparian Areas"
+		   },
+		   {
+		      "name": "Riparian Forest"
+		   },
+		   {
+		      "name": "Riparian Zone"
+		   },
+		   {
+		      "name": "Iowa HU4-0708 Boundary"
+		   }
+		]
+	},
+	{
+	   "displayName": "Large River Bottomland Forest Restoration Opportunities",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "58597b22e4b03639a6026049"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Potential Bottomland Forest Blocks (All)"
+		   },
+		   {
+		      "name": "Leveed Areas"
+		   },
+		   {
+		      "name": "Forest Block Opportunities",
+			  "includeAllLayers": true
+		   },
+		   {
+		      "name": "Forest Patch Opportunities",
+			  "includeAllLayers": true
+		   },
+		   {
+		      "name": "Supplemental Data",
+			  "includeAllLayers": true
+		   }  
+		]
+	},
+	{
+	   "displayName": "Lower Illinois River Basin (HU4-0713) - Riparian Implementation Opportunities",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "56127835e4b0ba4884c60946"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Riparian Corn/Soybeans - Contiguous to Herbaceous"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Marginal Wet"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Marginal"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Wet"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans"
+		   },
+		   {
+		      "name": "Riparian Grazing Land - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Grazing Land - Wet"
+		   },
+		   {
+		      "name": "Riparian Grazing Land"
+		   },
+		   {
+		      "name": "Wet Riparian Areas"
+		   },
+		   {
+		      "name": "Riparian Forest"
+		   },
+		   {
+		      "name": "Riparian Zone"
+		   },
+		   {
+		      "name": "Lower Illinois HU4-0713 Boundary"
+		   }
+		   
+		]
+	},
+	{
+	   "displayName": "Mainstem Bottomland Forest Restoration Opportunities",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "5612656ee4b0ba4884c6092e"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Within a Leveed Area",
+			  "includeAllLayers": true
+		   },
+           {
+		      "name": "Forest Block Opportunities",
+			  "includeAllLayers": true
+		   },
+		   {
+		      "name": "Forest Patch Opportunities",
+			  "includeAllLayers": true
+		   },
+		   {
+		      "name": "Supplemental Data",
+			  "includeAllLayers": true
+		   }  
+		]
+	},
+	{
+	   "displayName": "Scioto River Basin (HU4-0506) - Riparian Implementation Opportunities",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "56127643e4b0ba4884c6093a"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Riparian Corn/Soybeans - Contiguous to Herbaceous"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Marginal Wet"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Marginal"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Wet"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans"
+		   },
+		   {
+		      "name": "Riparian Grazing Land - Wet"
+		   },
+		   {
+		      "name": "Riparian Grazing Land"
+		   },
+		   {
+		      "name": "Wet Riparian Areas"
+		   },
+		   {
+		      "name": "Riparian Forest"
+		   },
+		   {
+		      "name": "Riparian Zone"
+		   },
+		   {
+		      "name": "Scioto HU4-0506 Boundary"
+		   }
+		   
+		]
+	},
+	{
+	   "displayName": "Wabash River Basin (HU4-0512) - Riparian Implementation Opportunities",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "561276d5e4b0ba4884c6093d"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Riparian Corn/Soybeans - Contiguous to Herbaceous"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Marginal Wet"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Marginal"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans - Wet"
+		   },
+		   {
+		      "name": "Riparian Corn/Soybeans"
+		   },
+		   {
+		      "name": "Riparian Grazing Land - Wet"
+		   },
+		   {
+		      "name": "Riparian Grazing Land"
+		   },
+		   {
+		      "name": "Wet Riparian Areas"
+		   },
+		   {
+		      "name": "Riparian Forest"
+		   },
+		   {
+		      "name": "Riparian Zone"
+		   },
+		   {
+		      "name": "Wabash HU4-0512 Boundary"
+		   }
+		   
+		]
+	},
+	{
+	   "displayName": "Yazoo River Basin (HU4-0803) - Riparian Implementation Opportunities",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "57508e47e4b053f0edcf2aaa"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Riparian Rice - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Rice - Marginal Wet"
+		   },
+		   {
+		      "name": "Riparian Rice - Marginal"
+		   },
+		   {
+		      "name": "Riparian Rice - Wet"
+		   },
+		   {
+		      "name": "Riparian Rice"
+		   },
+		   {
+		      "name": "Riparian Cotton - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Cotton - Marginal Wet"
+		   },
+		   {
+		      "name": "Riparian Cotton - Marginal"
+		   },
+		   {
+		      "name": "Riparian Cotton - Wet"
+		   },
+		   {
+		      "name": "Riparian Cotton"
+		   },
+		   {
+		      "name": "Wet Riparian Area"
+		   },
+		   {
+		      "name": "Riparian Forest"
+		   },
+		   {
+		      "name": "Riparian Zone"
+		   },
+		   {
+		      "name": "Yazoo HU4-0803 Boundary"
+		   }
 		]
 	}
 ]
