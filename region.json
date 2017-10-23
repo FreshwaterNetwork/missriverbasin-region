@@ -8,15 +8,16 @@
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
     ],
     "regionLinks": [
+	{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/louisiana/" },
         { "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
 		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
 		{ "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
     ],
     "initialExtent": [
         -102.00,
-        28.67,
-        -85.00,
-        46.84
+        30.00,
+        -72.00,
+        44.50
     ],
     "basemaps": [
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
@@ -49,14 +50,20 @@
        "active": "#6BCA1E"
     },
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+   "identifyEnabled": true,
     "launchpad": {
             "title": "",
             "description": "<p>Welcome to The Mississippi River Basin Project. There's lots of cool stuff to check out here.</p>",
             "plugins": [
 				{
-                    "title": "<img src='img/regional_planning.png' hspace=10>Global",
-                    "description": "Reference Data",
+                    "title": "<img src='img/regional_planning.png' hspace=10>",
+                    "description": "Base Layers, Reference Data, Nutrient Models and more...",
                     "pluginName": "regional-planning"
+                },
+				{
+                    "title": "<img src='plugins/umr-floodplain/icon_sm.png' hspace=10>",
+                    "description": "Upper Mississippi Floodplain Explorer",
+                    "pluginName": "umr-floodplain"
                 }
             ]
       }
