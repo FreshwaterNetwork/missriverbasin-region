@@ -10,6 +10,10 @@
   	      "repo": "umr-floodplain",
   	      "name": "umr-floodplain",
   	      "org": "FreshwaterNetwork"
+    },
+	{
+  	      "repo": "regional-planning",
+  	      "name": "Gulf Hypoxia Blueprint"
     }
    ]
 }
