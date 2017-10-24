@@ -143,6 +143,54 @@
 		]
 	},
 	{
+	   "displayName": "NWI Forested Wetlands (MRB)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "56263981e4b0fb9a11dd768a"
+        },
+        "includeLayers": [
+		   {
+		      "name": "NWI Forested Wetlands"
+		   }
+		]
+	},
+	{
+	   "displayName": "NWI Historic Wetlands",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "578546a1e4b0e02680bf1feb"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Historic Wetlands - NWI"
+		   }
+		]
+	},
+	{
+	   "displayName": "USGS Historic LULC (1938,1968,1988) - Miss. River Basin",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "59e748c0e4b05fe04cd3a0b2"
+        },
+        "includeLayers": [
+		   {
+		      "name": "MRB - USGS Historic LULC - 1938"
+		   },
+		   {
+		      "name": "MRB - USGS Historic LULC - 1968"
+		   },
+		   {
+		      "name": "MRB - USGS Historic LULC - 1988"
+		   }
+		]
+	},
+	{
 	   "displayName": "Basin-wide Restoration Opportunities by Production System",
         "server": {
             "type": "ags",
