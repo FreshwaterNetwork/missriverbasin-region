@@ -625,5 +625,90 @@
 		      "name": "Yazoo HU4-0803 Boundary"
 		   }
 		]
+	},
+	{
+	   "displayName": "Gulf Hypoxia Solution Maps",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "55f320a4e4b0ba2c1a00773e"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Solution Map (60PCT)"
+		   },
+           {
+		      "name": "Solution Map (30PCT)"
+		   },
+		   {
+		      "name": "Solution Map (Frequency)"
+		   } 
+		]
+	},
+	{
+	   "displayName": "HU-8 Percent Cropland (CDL 2013)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "55df128fe4b0518e354e085c"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Percent Cropland (CDL 2013)"
+		   }
+	},
+	{
+	   "displayName": "MRB-GHI Pilot Basins (March 2016)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "584ada68e4b07e29c706ddff"
+        },
+        "includeLayers": [
+		   {
+		      "name": "MRB-GHI Pilot Basins (March 2016)"
+		   }
+	},
+	{
+	   "displayName": "Sum - Conservation and Watershed Interests (2016)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "582478e4e4b02652fd722182"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Sum - Conservation and Watershed Interests (2016)"
+		   }
+	},
+	{
+	   "displayName": "Sum - Conservation Focus Areas (2016)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "58208b9ce4b080404e6fa835"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Sum - Conservation Focus Areas (2016)"
+		   }
+	},
+	{
+	   "displayName": "Sum - Watershed Implementation Interests (2016)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "582e04a6e4b04d580bd40368"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Sum of Watershed Interests (2016)"
+		   }
 	}
 ]
