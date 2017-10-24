@@ -52,6 +52,97 @@
 		]
 	},
 	{
+	   "displayName": "Historic Land Cover (IA/IL/MN/MO/OH/WI)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "58418c4de4b04fc80e518b36"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Illinois - Presettlement Vegetation"
+		   },
+		   {
+		      "name": "Iowa - GLO Vegetation (Generalized)"
+		   },
+		   {
+		      "name": "Minnesota - Presettlement Vegetation"
+		   },
+		   {
+		      "name": "Missouri - Historic Prairie"
+		   },
+		   {
+		      "name": "Ohio - Original Vegetation"
+		   },
+		   {
+		      "name": "Wisconsin - Original Vegetation"
+		   }
+		]
+	},
+	{
+	   "displayName": "Landfire v.1.2.0 - Biophysical Setting (MRB)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "55f2c3ebe4b0dacf699ec6de"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Landfire - Biophysical Setting"
+		   }
+		]
+	},
+	{
+	   "displayName": "Landfire v.1.2.0 - Environmental Site Potential (MRB)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "55f2c94ce4b0dacf699ec6e4"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Landfire - Biophysical Setting"
+		   }
+		]
+	},
+	{
+	   "displayName": "Lower Missouri River - Potential Natural Vegetation",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "57eab756e4b09082500db106"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Lower Missouri River - SSURGO Soils (Drainage Class)"
+		   },
+		   {
+		      "name": "Lower Missouri River - Flow Recurrence Index"
+		   },
+		   {
+		      "name": "Lower Missouri River - Potential Natural Vegetation"
+		   }
+		]
+	},
+	{
+	   "displayName": "NWI Emergent Wetlands (MRB)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "56263235e4b0fb9a11dd7679"
+        },
+        "includeLayers": [
+		   {
+		      "name": "NWI Emergent Wetlands"
+		   }
+		]
+	},
+	{
 	   "displayName": "Basin-wide Restoration Opportunities by Production System",
         "server": {
             "type": "ags",
