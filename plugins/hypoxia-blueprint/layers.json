@@ -658,6 +658,7 @@
 		   {
 		      "name": "Percent Cropland (CDL 2013)"
 		   }
+		]
 	},
 	{
 	   "displayName": "MRB-GHI Pilot Basins (March 2016)",
@@ -671,6 +672,7 @@
 		   {
 		      "name": "MRB-GHI Pilot Basins (March 2016)"
 		   }
+		]
 	},
 	{
 	   "displayName": "Sum - Conservation and Watershed Interests (2016)",
@@ -684,6 +686,7 @@
 		   {
 		      "name": "Sum - Conservation and Watershed Interests (2016)"
 		   }
+		]
 	},
 	{
 	   "displayName": "Sum - Conservation Focus Areas (2016)",
@@ -697,6 +700,7 @@
 		   {
 		      "name": "Sum - Conservation Focus Areas (2016)"
 		   }
+		]
 	},
 	{
 	   "displayName": "Sum - Watershed Implementation Interests (2016)",
@@ -710,5 +714,6 @@
 		   {
 		      "name": "Sum of Watershed Interests (2016)"
 		   }
+		]
 	}
 ]
