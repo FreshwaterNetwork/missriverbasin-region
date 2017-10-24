@@ -52,6 +52,86 @@
 		]
 	},
 	{
+	   "displayName": "Basin-wide Restoration Opportunities by Production System",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "56214375e4b06217fc478c02"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Corn/Soybeans",
+			  "includeAllLayers" : true
+		   },
+		   {
+		      "name": "Cotton",
+			  "includeAllLayers" : true
+		   },
+		   {
+		      "name": "Rice",
+			  "includeAllLayers" : true
+		   },
+		   {
+		      "name": "Herbaceous/Grazing Lands",
+			  "includeAllLayers" : true
+		   }
+		]
+	},
+	{
+	   "displayName": "Boeuf-Tensas River Basin (HU4-0805) - Riparian Implementation Opportunities",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "56127874e4b0ba4884c60949"
+        },
+        "includeLayers": [
+		   {
+		      "name": "Riparian Rice - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Rice - Marginal Wet"
+		   },
+		   {
+		      "name": "Riparian Rice - Marginal"
+		   },
+		   {
+		      "name": "Riparian Rice - Wet"
+		   },
+		   {
+		      "name": "Riparian Rice"
+		   },
+           {
+              "name": "Riparian Cotton - Contiguous to Forest"
+		   },
+		   {
+		      "name": "Riparian Cotton - Marginal Wet"
+		   },
+		   {
+		      "name": "Riparian Cotton - Marginal"
+		   },
+		   {
+		      "name": "Riparian Cotton - Wet"
+		   },
+		   {
+		      "name": "Riparian Cotton"
+		   },
+		   {
+		      "name": "Wet Riparian Areas"
+		   },
+		   {
+		      "name": "Riparian Forest"
+		   },
+		   {
+		      "name": "Riparian Zone"
+		   },
+		   {
+		      "name": "Boeuf-Tensas HU4-0805 Boundary"
+		   }
+		]
+	},
+	{
 	   "displayName": "Des Moines River Basin (HU4-0710) - Riparian Implementation Opportunities",
         "server": {
             "type": "ags",
