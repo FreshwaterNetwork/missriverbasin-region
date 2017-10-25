@@ -61,7 +61,7 @@
                     "pluginName": "regional-planning"
                 },
 				{
-                    "title": "<img src='plugins/umr-floodplain/icon_sm.png' hspace=10>Upper Mississippi Floodplain Explorer",
+                    "title": "<img src='img/UMR.png' hspace=10>Upper Mississippi Floodplain Explorer",
                     "description": "Target watersheds suitable for Conservation, Restoration or Reconnection.",
                     "pluginName": "umr-floodplain"
                 },
