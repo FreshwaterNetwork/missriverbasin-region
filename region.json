@@ -56,18 +56,18 @@
             "description": "<p>Welcome to The Mississippi River Basin Project. There's lots of cool stuff to check out here.</p>",
             "plugins": [
 				{
-                    "title": "<img src='img/regional_planning.png' hspace=10>",
-                    "description": "Regional Planning - Base Layers, Reference Data, Nutrient Models and more...",
+                    "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
+                    "description": "Base Layers, Reference Data, Nutrient Models and more...",
                     "pluginName": "regional-planning"
                 },
 				{
-                    "title": "<img src='plugins/umr-floodplain/icon_sm.png' hspace=10>",
-                    "description": "Upper Mississippi Floodplain Explorer - Target watersheds suitable for Conservation, Restoration or Reconnection.",
+                    "title": "<img src='plugins/umr-floodplain/icon_sm.png' hspace=10>Upper Mississippi Floodplain Explorer",
+                    "description": "Target watersheds suitable for Conservation, Restoration or Reconnection.",
                     "pluginName": "umr-floodplain"
                 },
 				{
-                    "title": "<img src='img/hypoxiablueprint.png' hspace=10>",
-                    "description": "Gulf Hypoxia Blueprint - Datasets intended to support development of the Multi-LCC Mississippi River Basin/Gulf Hypoxia Initiative's Conservation Blueprint 1.0.",
+                    "title": "<img src='img/hypoxiablueprint.png' hspace=10>Gulf Hypoxia Blueprint",
+                    "description": "Datasets intended to support development of the Multi-LCC Mississippi River Basin/Gulf Hypoxia Initiative's Conservation Blueprint 1.0.",
                     "pluginName": "hypoxia-blueprint"
                 }
             ]
