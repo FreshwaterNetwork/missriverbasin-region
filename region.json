@@ -2,9 +2,9 @@
     "googleAnalyticsPropertyId": "28810260-22",
 	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
 	"titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org/"},
-	"titleDetail": { "text": "Mississippi River Basin", "url": ""},
+	"titleDetail": { "text": "Mississippi River Basin", "url": "https://www.nature.org/ourinitiatives/regions/northamerica/north-america-water-mississippi-river.xml/"},
 	"headerLinks": [
-        { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
+        { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
     ],
     "regionLinks": [
@@ -30,8 +30,9 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "regional-planning",
-		"umr-floodplain",
+        "umr-floodplain",
+		"regional-planning",
+		"hypoxia-blueprint"
 		"zoom_to",
         "measure",
         "legend_display",
@@ -55,15 +56,15 @@
             "title": "",
             "description": "<p>Welcome to The Mississippi River Basin Project. There's lots of cool stuff to check out here.</p>",
             "plugins": [
-				{
-                    "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
-                    "description": "Base Layers, Reference Data, Nutrient Models and more...",
-                    "pluginName": "regional-planning"
-                },
-				{
+			    {
                     "title": "<img src='img/UMR.png' hspace=10>Upper Mississippi Floodplain Explorer",
                     "description": "Target watersheds suitable for Conservation, Restoration or Reconnection.",
                     "pluginName": "umr-floodplain"
+                },
+				{
+                    "title": "<img src='img/regional_planning.png' hspace=10>Basin-wide Planning",
+                    "description": "Base Layers, Reference Data, Nutrient Models and more...",
+                    "pluginName": "regional-planning"
                 },
 				{
                     "title": "<img src='img/hypoxiablueprint.png' hspace=10>Gulf Hypoxia Blueprint",
