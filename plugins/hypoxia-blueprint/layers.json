@@ -404,8 +404,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
-			"name": "56127835e4b0ba4884c60946"
+            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog",
+			"name": "5a37daf6e4b09beb9275e057"
         },
         "includeLayers": [
 		   {
