@@ -195,8 +195,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
-			"name": "56214375e4b06217fc478c02"
+            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog",
+			"name": "5a37d56be4b09beb9275e03c"
         },
         "includeLayers": [
 		   {
@@ -222,8 +222,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
-			"name": "56127874e4b0ba4884c60949"
+            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog",
+			"name": "5a37d95fe4b09beb9275e048"
         },
         "includeLayers": [
 		   {
@@ -275,8 +275,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
-			"name": "561277ece4b0ba4884c60943"
+            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog",
+			"name": "5a37d95fe4b09beb9275e048"
         },
         "includeLayers": [
 		   {
@@ -325,8 +325,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
-			"name": "5612779fe4b0ba4884c60940"
+            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog",
+			"name": "5a37da8de4b09beb9275e054"
         },
         "includeLayers": [
 		   {
@@ -375,8 +375,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
-			"name": "58597b22e4b03639a6026049"
+            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog",
+			"name": "5a4b8b77e4b0d05ee8c34a1e"
         },
         "includeLayers": [
 		   {
