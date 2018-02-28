@@ -579,7 +579,8 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
-			"name": "5a33cbd7e4b08e6a89d9f7c6"
+			"name": "5a33cbd7e4b08e6a89d9f7c6",
+			"description" : "Implementation opportunities (marginal and wet soils in addition to landscape context) for crop and grazing land within the riparian zone - Yazoo River Basin (HU4-0803)."
         },
         "includeLayers": [
 		   {
