@@ -191,7 +191,7 @@
 		]
 	},
 	{
-	   "displayName": "Basin-wide Restoration Opportunities by Production System",
+	   "displayName": "Basin-wide Restoration Opportunities by Production System (2017)",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -271,7 +271,7 @@
 		]
 	},
 	{
-	   "displayName": "Des Moines River Basin (HU4-0710) - Riparian Implementation Opportunities",
+	   "displayName": "Des Moines River Basin (HU4-0710) - Riparian Implementation Opportunities (2017)",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -321,7 +321,7 @@
 		]
 	},
 	{
-	   "displayName": "Iowa River Basin (HU4-0708) - Riparian Implementation Opportunities",
+	   "displayName": "Iowa River Basin (HU4-0708) - Riparian Implementation Opportunities (2017)",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -400,7 +400,7 @@
 		]
 	},
 	{
-	   "displayName": "Lower Illinois River Basin (HU4-0713) - Riparian Implementation Opportunities",
+	   "displayName": "Lower Illinois River Basin (HU4-0713) - Riparian Implementation Opportunities (2017)",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -478,12 +478,12 @@
 		]
 	},
 	{
-	   "displayName": "Scioto River Basin (HU4-0506) - Riparian Implementation Opportunities",
+	   "displayName": "Scioto River Basin (HU4-0506) - Riparian Implementation Opportunities (2017)",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
-			"name": "56127643e4b0ba4884c6093a"
+            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog",
+			"name": "5a37db4ee4b09beb9275e05a"
         },
         "includeLayers": [
 		   {
@@ -526,12 +526,12 @@
 		]
 	},
 	{
-	   "displayName": "Wabash River Basin (HU4-0512) - Riparian Implementation Opportunities",
+	   "displayName": "Wabash River Basin (HU4-0512) - Riparian Implementation Opportunities (2017)",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
-			"name": "561276d5e4b0ba4884c6093d"
+            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog",
+			"name": "5a37dbb3e4b09beb9275e05d"
         },
         "includeLayers": [
 		   {
@@ -574,12 +574,12 @@
 		]
 	},
 	{
-	   "displayName": "Yazoo River Basin (HU4-0803) - Riparian Implementation Opportunities",
+	   "displayName": "Yazoo River Basin (HU4-0803) - Riparian Implementation Opportunities (2017)",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
-			"name": "57508e47e4b053f0edcf2aaa"
+            "url": https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+			"name": "5a33cbd7e4b08e6a89d9f7c6"
         },
         "includeLayers": [
 		   {
