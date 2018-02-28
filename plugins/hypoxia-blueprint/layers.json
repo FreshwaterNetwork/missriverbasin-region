@@ -578,7 +578,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
 			"name": "5a33cbd7e4b08e6a89d9f7c6"
         },
         "includeLayers": [
