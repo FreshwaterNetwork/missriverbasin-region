@@ -3,5 +3,6 @@
     "width": 400,
     "resizable": false,
     "hasCustomPrint": false,
-	"name": "Gulf Hypoxia Blueprint"
+	"name": "Gulf Hypoxia Blueprint",
+	"description": "Selected map services from Gulf Hypoxia Blueprint."
 }
