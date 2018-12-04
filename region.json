@@ -30,7 +30,7 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "umr-floodplain",
+        "floodplain-explorer",
 		"regional-planning",
 		"hypoxia-blueprint",
 		"zoom_to",
@@ -59,7 +59,7 @@
 			    {
                     "title": "<img src='img/UMR.png' hspace=10>Upper Mississippi Floodplain Explorer",
                     "description": "Target watersheds suitable for Conservation, Restoration or Reconnection.",
-                    "pluginName": "umr-floodplain"
+                    "pluginName": "floodplain-explorer"
                 },
 				{
                     "title": "<img src='img/regional_planning.png' hspace=10>Basin-wide Planning",
