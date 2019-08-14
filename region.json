@@ -21,8 +21,7 @@
     ],
     "basemaps": [
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
-        { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
-	{ "name": "OpenStreetMap"      , "url": "" } 
+        { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" }
     ],
     "pluginOrder": [
         "floodplain-explorer",
